@@ -1,0 +1,17 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+/* inject:imports */
+/* endinject */
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+
+@include media-query(null, $screen-xs-max) {
+	.lfr-product-menu-panel, .control-menu {
+		display: none;
+	}
+
+	.has-control-menu div#wrapper {
+		padding: 0;
+	}
+}
