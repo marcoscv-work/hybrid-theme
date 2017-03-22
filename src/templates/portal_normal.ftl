@@ -23,7 +23,7 @@
 </#if>
 
 <div id="wrapper">
-	<#if show_hader>
+	<#if show_header>
 		<header class="container-fluid-1280" id="banner" role="banner">
 			<div class="row">
 				<div class="navbar-header" id="heading">
@@ -35,20 +35,6 @@
 						<span class="site-name" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 							${site_name}
 						</span>
-					</#if>
-
-					<#if is_setup_complete>
-						<button aria-controls="navigation" aria-expanded="false" class="collapsed navbar-toggle" data-target="#navigationCollapse" data-toggle="collapse" type="button">
-							<span class="icon-bar"></span>
-
-							<span class="icon-bar"></span>
-
-							<span class="icon-bar"></span>
-						</button>
-
-						<div class="pull-right user-personal-bar">
-							<@liferay.user_personal_bar />
-						</div>
 					</#if>
 				</div>
 

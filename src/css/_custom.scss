@@ -7,7 +7,7 @@
 
 
 @include media-query(null, $screen-xs-max) {
-	.lfr-product-menu-panel, .control-menu {
+	.lfr-product-menu-panel, .control-menu, .portlet > .portlet-topper {
 		display: none;
 	}
 
